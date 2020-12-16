@@ -2,6 +2,10 @@
 
 Allows you to create an avatar simply...
 
+This plugin includes the [flutter_mobile_camera](https://pub.dev/packages/flutter_mobile_camera) plugin.
+
+Please follow the configuration of this plugin to integrate flutter_profile_avatar.
+
 ## Getting Started
 
 ```
