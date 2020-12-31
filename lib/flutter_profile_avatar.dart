@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile_camera/CameraBuilder.dart';
 import 'package:flutter_mobile_camera/flutter_mobile_camera.dart';
 import 'package:flutter_profile_avatar/StringTools.dart';
 
@@ -73,10 +74,10 @@ class ProfileAvatar extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                               builder: (context) => Camera(
-                                onBack: () => Navigator.pop(context),
-                                onSend: onUpdated,
-                                onTakePhoto: (path) => null,
-                              ),
+                                  onBack: () => Navigator.pop(context),
+                                  onSend: onUpdated,
+                                  onTakePhoto: (path) => null,
+                                ),
                             ),
                           );
                         },
