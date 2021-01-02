@@ -1,6 +1,6 @@
 name: flutter_profile_avatar
 description: Allows you to create an avatar simply...
-version: 0.0.2+2
+version: 0.0.2+3
 homepage: https://github.com/bynicodevelop/flutter_profile_avatar
 
 environment:
@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_mobile_camera: ^0.0.2+2
+  flutter_mobile_camera: ^0.0.2+3
 
 dev_dependencies:
   flutter_test:
